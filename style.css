@@ -11,7 +11,7 @@
 }
 
 :root {
-    --padrao: #dddada;
+    --color0: #dddada;
     --facebook: #1877f2;
     --instagram: #f3425f;
     --messenger: #1877f2;
@@ -43,16 +43,30 @@ header img {
     width: 300px;
     margin-bottom: 10px;
     border-radius: 50%;
-    box-shadow: 0 0 10px var(--padrao);
+}
+
+header img:hover {
+    border-color: #fff;
+    box-shadow: 0 0 30px #fff;
 }
 
 header p {
     font-family: 'Lobster Two', cursive;
     font-size: 3em;
     font-weight: bold;
-    color: var(--padrao);
+    color: #fff;
     padding: 2px;
-    text-shadow: 0 0 3px #fff;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover {
+    color: #000;
+    text-shadow: 0 0 20px #fff;
 }
 
 main {
@@ -60,64 +74,64 @@ main {
 }
 
 main button {
-    background-color: var(--padrao);
+    background-color: #000;
     font-size: 1.5em;
-    color: #000;
+    color: #fff;
     margin-top: 7px;
     padding: 7px;
     width: 270px;
     border-width: 0;
     border-radius: 3px;
     text-align: center;
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px #fff;
 }
 
 main a button.facebook:hover {
     background-color: var(--facebook);
     transition: 300ms;
-    color: #fff;
+    color: #000;
     box-shadow: 0 0 10px var(--facebook);
 }
 
 main a button.instagram:hover {
     background-color: var(--instagram);
     transition: 300ms;
-    color: #fff;
+    color: #000;
     box-shadow: 0 0 10px var(--instagram);
 }
 
 main a button.messenger:hover {
     background-color: var(--messenger);
     transition: 300ms;
-    color: #fff;
+    color: #000;
     box-shadow: 0 0 10px var(--messenger);
 }
 
 main a button.whatsapp:hover {
     background-color: var(--whatsapp);
     transition: 300ms;
-    color: #fff;
+    color: #000;
     box-shadow: 0 0 10px var(--whatsapp);
 }
 
 main a button.twitter:hover {
     background-color: var(--twitter);
     transition: 300ms;
-    color: #fff;
+    color: #000;
     box-shadow: 0 0 10px var(--twitter);
 }
 
 main a button.telegram:hover {
     background-color: var(--telegram);
     transition: 300ms;
-    color: #fff;
+    color: #000;
     box-shadow: 0 0 10px var(--telegram);
 }
 
 footer {
     font-family: 'Lobster Two', cursive;
     font-size: 1.1em;
-    color: var(--padrao);
+    color: #fff;
     text-align: center;
     margin-top: 10%;
     margin-bottom: 5%;
@@ -125,5 +139,10 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: var(--padrao);
+    color: #fff;
+}
+
+footer a:hover {
+    color: #000;
+    text-shadow: 0 0 10px #fff;
 }
