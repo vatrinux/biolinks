@@ -51,7 +51,7 @@ header img:hover {
 }
 
 header p {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 3em;
     font-weight: bold;
     color: #fff;
@@ -129,7 +129,7 @@ main a button.telegram:hover {
 }
 
 footer {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 1.1em;
     color: #fff;
     text-align: center;
