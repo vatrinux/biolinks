@@ -66,6 +66,13 @@ header a:hover {
     text-shadow: 0 0 20px #fff;
 }
 
+header div {
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
 main {
     text-align: center;
 }
@@ -133,7 +140,7 @@ main a button.telegram:hover {
 }
 
 footer {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
     font-size: 1.1em;
     color: #fff;
     text-align: center;
