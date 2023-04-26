@@ -31,7 +31,7 @@
 /* CONFIGURAÇÕES DO CORPO */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #101;
+    background-color: #111;
     width: 100%;
     height: 100%;
 }
@@ -62,12 +62,8 @@ div.perf p {
     color: #fff;
     padding: 2px;
     text-align: center;
-}
-
-div.perf p:hover {
-    color: #fff;
-    text-shadow: 0 0 20px #fff;
-    cursor: pointer;
+    text-shadow: 0 0 10px #fff;
+    cursor: default;
 }
 
 /* CONFIGURAÇÕES DO MAIN */
@@ -76,7 +72,7 @@ main {
 }
 
 main button {
-    background-color: #100;
+    background-color: #110;
     font-size: 1.5em;
     color: #fff;
     margin-top: 3px;
@@ -85,65 +81,69 @@ main button {
     border-width: 0;
     border-radius: 3px;
     text-align: center;
-    box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 10px #fff;
 }
 
 main a button.facebook:hover {
     background-color: var(--facebook);
     transition: 300ms;
     color: #000;
-    box-shadow: 0 0 10px var(--facebook);
+    box-shadow: 0 0 20px var(--facebook);
 }
 
 main a button.instagram:hover {
     background-color: var(--instagram);
     transition: 300ms;
     color: #000;
-    box-shadow: 0 0 10px var(--instagram);
+    box-shadow: 0 0 20px var(--instagram);
 }
 
 main a button.messenger:hover {
     background-color: var(--messenger);
     transition: 300ms;
     color: #000;
-    box-shadow: 0 0 10px var(--messenger);
+    box-shadow: 0 0 20px var(--messenger);
 }
 
 main a button.whatsapp:hover {
     background-color: var(--whatsapp);
     transition: 300ms;
     color: #000;
-    box-shadow: 0 0 10px var(--whatsapp);
+    box-shadow: 0 0 20px var(--whatsapp);
 }
 
 main a button.discord:hover {
     background-color: var(--discord);
     transition: 300ms;
     color: #000;
-    box-shadow: 0 0 10px var(--discord);
+    box-shadow: 0 0 20px var(--discord);
 }
 
 main a button.twitter:hover {
     background-color: var(--twitter);
     transition: 300ms;
     color: #000;
-    box-shadow: 0 0 10px var(--twitter);
+    box-shadow: 0 0 20px var(--twitter);
 }
 
 main a button.telegram:hover {
     background-color: var(--telegram);
     transition: 300ms;
     color: #000;
-    box-shadow: 0 0 10px var(--telegram);
+    box-shadow: 0 0 20px var(--telegram);
 }
 
 /* CONFIGURAÇÕES DO RODAPÉ */
 footer {
     font-family: 'Lobster Two', cursive;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #fff;
     text-align: center;
     margin-top: 30%;
     padding: 10px;
     border-top: 1.2px solid #fff;
+}
+
+footer img {
+    width: 15px;
 }
