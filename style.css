@@ -10,6 +10,7 @@
     src: url(fonts/LobsterTwo-Regular.ttf);
 }
 
+/* CONFIGURAÇÕES DE ATALHOS */
 :root {
     --color0: #dddada;
     --facebook: #1877f2;
@@ -21,11 +22,13 @@
     --telegram: #29a9ea;
 }
 
+/* CONFIGURAÇÕES UNIVERSAIS */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* CONFIGURAÇÕES DO CORPO */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #101;
@@ -33,13 +36,18 @@ body {
     height: 100%;
 }
 
-header {
+/* CONFIGURAÇÕES DO CABEÇALHO */
+header div {
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-header img {
+div.perf img {
     height: 300px;
     width: 300px;
     margin-bottom: 10px;
@@ -47,7 +55,7 @@ header img {
     box-shadow: 0 0 10px #fff;
 }
 
-header p {
+div.perf p {
     font-family: 'Lobster', cursive;
     font-size: 3em;
     font-weight: bold;
@@ -56,23 +64,13 @@ header p {
     text-align: center;
 }
 
-header a {
-    text-decoration: none;
-    color: #fff;
-}
-
-header a:hover {
+div.perf p:hover {
     color: #fff;
     text-shadow: 0 0 20px #fff;
+    cursor: pointer;
 }
 
-header div {
-    font-family: 'Lobster Two', cursive;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #fff;
-}
-
+/* CONFIGURAÇÕES DO MAIN */
 main {
     text-align: center;
 }
@@ -139,6 +137,7 @@ main a button.telegram:hover {
     box-shadow: 0 0 10px var(--telegram);
 }
 
+/* CONFIGURAÇÕES DO RODAPÉ */
 footer {
     font-family: 'Lobster Two', cursive;
     font-size: 1.1em;
