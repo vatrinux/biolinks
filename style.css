@@ -18,6 +18,8 @@
     --messenger: #1877f2;
     --whatsapp: #25d366;
     --discord: #5865f2;
+    --reddit: #ff4500;
+    --twitch: #a970ff;
     --twitter: #1d9bf0;
     --telegram: #29a9ea;
 }
@@ -111,6 +113,13 @@ main a button.whatsapp:hover {
     box-shadow: 0 0 10px var(--whatsapp);
 }
 
+main a button.twitter:hover {
+    background-color: var(--twitter);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--twitter);
+}
+
 main a button.discord:hover {
     background-color: var(--discord);
     transition: 300ms;
@@ -118,11 +127,18 @@ main a button.discord:hover {
     box-shadow: 0 0 10px var(--discord);
 }
 
-main a button.twitter:hover {
-    background-color: var(--twitter);
+main a button.reddit:hover {
+    background-color: var(--reddit);
     transition: 300ms;
     color: #000;
-    box-shadow: 0 0 10px var(--twitter);
+    box-shadow: 0 0 10px var(--reddit);
+}
+
+main a button.twitch:hover {
+    background-color: var(--twitch);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--twitch);
 }
 
 main a button.telegram:hover {
