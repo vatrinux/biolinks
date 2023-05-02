@@ -17,10 +17,11 @@
     --instagram: #e2306c;
     --messenger: #1877f2;
     --whatsapp: #25d366;
+    --pinterest: #E60023;
+    --twitter: #1d9bf0;
     --discord: #5865f2;
     --reddit: #ff4500;
     --twitch: #a970ff;
-    --twitter: #1d9bf0;
     --telegram: #29a9ea;
 }
 
@@ -111,6 +112,13 @@ main a button.whatsapp:hover {
     transition: 300ms;
     color: #000;
     box-shadow: 0 0 10px var(--whatsapp);
+}
+
+main a button.pinterest:hover {
+    background-color: var(--pinterest);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--pinterest);
 }
 
 main a button.twitter:hover {
