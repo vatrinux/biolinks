@@ -1,17 +1,11 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Lobster';
-    src: url(fonts/Lobster-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Lobster Two';
-    src: url(fonts/LobsterTwo-Regular.ttf);
-}
+/* CONFIGURAÇÕES DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 /* CONFIGURAÇÕES DE ATALHOS */
 :root {
+    --font0: 'Cookie', cursive;
     --color0: #dddada;
     --facebook: #1877f2;
     --instagram: #e2306c;
@@ -41,7 +35,7 @@ body {
 
 /* CONFIGURAÇÕES DO CABEÇALHO */
 header div {
-    font-family: 'Lobster Two', cursive;
+    font-family: var(--font0);
     font-size: 1.2em;
     font-weight: bold;
     color: #fff;
@@ -59,8 +53,8 @@ div.perf img {
 }
 
 div.perf p {
-    font-family: 'Lobster', cursive;
-    font-size: 3em;
+    font-family: var(--font0);
+    font-size: 4em;
     font-weight: bold;
     color: #fff;
     padding: 2px;
@@ -158,11 +152,10 @@ main a button.telegram:hover {
 
 /* CONFIGURAÇÕES DO RODAPÉ */
 footer {
-    font-family: 'Lobster Two', cursive;
     font-size: 1.2em;
     color: #fff;
     text-align: center;
-    margin-top: 30%;
+    margin-top: 10%;
     padding: 10px;
     border-top: 1.2px solid #fff;
 }
